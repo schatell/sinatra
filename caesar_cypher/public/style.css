@@ -1,0 +1,55 @@
+body {
+  background: #3399ff;
+  color: #001a33;
+}
+h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+form {
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+input {
+  width: 30%;
+  height: 40px;
+  font-size: 15px;
+}
+.champs {
+  padding: 12px 10px;
+  border: 3px solid #555;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.champs:focus {
+  border: 3px solid #001a33;
+}
+input[type=submit] {
+  margin-top: 25px;
+  width: 15%;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #001a33;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+p {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #001a33;
+}
+p span {
+  padding: 0px 4px 0px 4px;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  color: white;
+}

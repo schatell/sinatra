@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Caesar Cypher</title>
+  </head>
+  <body>
+    <h1>Caesar Cypher</h1>
+    <form>
+      <h2>Enter the word(s) to be cyphered:</h2>
+      <input class="champs" type="text" name="to_cypher">
+      <h2>Shift value:</h2>
+      <input class="champs" type="number" name="shift" value="3"><br>
+      <input type="submit" value="Submit">
+    </form>
+    <% if params["to_cypher"] %>
+      <p><%= to_be_cyphered%><span>become</span><%= cyphered %></p>
+    <% end %>
+  </body>
+</html>
